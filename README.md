@@ -1,4 +1,4 @@
-# WhatsApp Clone (Chat App)
+# Chat Saver (Chat App)
 
 A simple chat application built using **Node.js, Express, MongoDB, and EJS** that allows users to create, update, and delete chat messages.
 
