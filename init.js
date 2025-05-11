@@ -19,7 +19,7 @@ const allChats = [
     { timestamps: { createdAt: 'created_at', updatedAt: false } } // Disable `updatedAt`
 ];
 
-console.log(allChats.length); // Should be 4
+console.log(allChats.length); // Should be 4  
 
 
 

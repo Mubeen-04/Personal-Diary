@@ -7,17 +7,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height:90vh;
 }
 
 .container {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 600px;
     padding-right: 40px;
+    padding-top: 20px;
+    height: 500px;
+    margin-top: 20px;
 }
 
 h3 {
@@ -40,7 +42,7 @@ h3 {
 }
 
 .chat-form textarea {
-    height: 150px;
+    height: 350px;
     resize: vertical;
 }
 
@@ -54,6 +56,9 @@ h3 {
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s;
+    display: block;
+    margin: 20px auto 0; /* top margin 20px, auto center horizontally */
+    max-width: 300px; /* optional: controls button width */
 }
 
 .submit-btn:hover {
